@@ -11,21 +11,4 @@ public class App {
 	public App() {
 		this.checkStrValue = "SoneValue";
 	}
-	
-	private void executeSomeConditions() {
-		if ("SomeValue".equals(this.checkStrValue)) {
-			
-		} else if ("SomeValue".equals(this.checkStrValue)) {
-			
-		}
-	}
-	
-	private static void incorrectAssignmentInIfCondition() {
-		boolean value = false;
-		if (value = true) {
-	
-		} else {
-			
-		}
-	}
 }
