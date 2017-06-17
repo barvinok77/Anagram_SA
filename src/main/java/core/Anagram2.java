@@ -15,8 +15,4 @@ public class Anagram2 {
 			}	
 		}
 	}
-	
-	void bar() {
-		for (;true;);
-	}
 }

@@ -2,12 +2,6 @@ package core;
 
 public class Anagram {
 	
-	@SuppressWarnings("null")
-	public static boolean A(String name) {
-		boolean n = (Boolean) null;
-		return n;
-	}
-	
 	public static boolean validate(String s, String t) {
 		String password = "pass";
 		if (s.replaceAll("\\s", "").length() != t.replaceAll("\\s", "").length()) {
